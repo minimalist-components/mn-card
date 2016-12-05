@@ -1,0 +1,13 @@
+{
+  "name": "mn-card",
+  "version": "0.0.1",
+  "description": "Minimalist card component",
+  "main": [
+    "dist/mn-card.css"
+  ],
+  "authors": [
+    "Darlan Mendonça <darlanmendonca@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": ""
+}

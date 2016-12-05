@@ -1,0 +1,18 @@
+.mn-card {
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),
+    0 1px 1px 0 rgba(0,0,0,.14),
+    0 2px 1px -1px rgba(0,0,0,.12);
+  box-shadow: rgba(0,0,0,.14902) 0 1px 1px;
+  background: white;
+  margin-bottom: 1em;
+
+  &.padding {padding: 1.6em 3em}
+
+  &.padding-title {
+    & > h2, & > h3 {
+      padding: 1em;
+      margin: 0;
+    }
+  }
+}
