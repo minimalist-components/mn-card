@@ -15,4 +15,10 @@
       margin: 0;
     }
   }
+
+  &.padding-header {
+    header {
+      padding: 1em;
+    }
+  }
 }
