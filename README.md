@@ -1,4 +1,4 @@
-# Minimalist card
+# mn-card
 
 A card component with a minimalist design
 
@@ -8,17 +8,11 @@ A card component with a minimalist design
 
 ### Install
 
-With bower
-
 ```sh
 bower install --save mn-card
 ```
 
-Or just download the main file ```dist/mn-card.css``` in your project, and make a reference to their, like:
-
-```html
-<link rel="stylesheet" href="path/to/dist/mn-card.css">
-```
+Or just download the main files, located in [dist/](https://github.com/minimalist-components/mn-card/tree/master/dist)
 
 
 ### Usage
