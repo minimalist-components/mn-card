@@ -10,6 +10,12 @@ html
     .demo .mn-card {margin: 1em}
     .demo h2 {font-weight: normal}
 
+    @media (max-width: 599px) {
+      .demo {margin-top: 80px}
+      .demo .mn-card {margin: 1em 0}
+      .docs {margin-top: 0}
+    }
+
 body
   h2 mn-card
   include github-corner
@@ -18,11 +24,19 @@ body
     .layout-container
       .demo.layout-column.layout-sm-row
         .mn-card.padding-title
-          h2 Lorem ipsum
           img(src='http://cdn1.sciencefiction.com/wp-content/uploads/2015/03/Game-of-Thrones-season-5-thumb.jpg')
-        .mn-card.padding-title.flex-sm-60
           h2 Lorem ipsum
-          p lorem ipsum
+        .mn-card.padding-title.flex-sm-50.flex-md-60
+          h2 Lorem ipsum
+          .mn-table-list
+            a.mn-item(href='#' close-dialog)
+              span John Snow
+
+            a.mn-item(href='#' close-dialog)
+              span Daenerys Targaryen
+
+            a.mn-item(href='#' close-dialog)
+              span Tyrion Lannister
   
   .docs.layout-container
     mn-code.sh.
@@ -48,4 +62,17 @@ body
   
   block scripts
     script(src='docs/vendor.js')
+
+  script.
+    var links = document.querySelectorAll('.mn-table-list a[href]')
+    Array
+        .from(links)
+        .forEach(function(link) {
+          link.addEventListener('click', preventDefault)
+          link.addEventListener('focus', event => event.target.blur())
+        })
+
+    function preventDefault(event) {
+      event.preventDefault()
+    }
 

@@ -11,6 +11,7 @@
   "license": "MIT",
   "homepage": "",
   "devDependencies": {
-    "mn-gh-page": "^0.0.12"
+    "mn-gh-page": "^0.0.12",
+    "mn-table-list": "^0.0.2"
   }
 }
