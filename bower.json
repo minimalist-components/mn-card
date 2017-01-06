@@ -1,6 +1,6 @@
 {
   "name": "mn-card",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Minimalist card component",
   "main": [
     "dist/mn-card.css"
