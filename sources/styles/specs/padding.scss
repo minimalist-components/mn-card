@@ -1,0 +1,13 @@
+.mn-card {
+  &.padding {padding: 1em 1.5rem}
+
+  &.padding-title {
+    & > h2,
+    & > h3,
+    & > h4,
+    & > header {
+      padding: 1em 1.5rem;
+      margin: 0;
+    }
+  }
+}
