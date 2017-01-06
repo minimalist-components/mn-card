@@ -1,0 +1,51 @@
+html
+  meta(name='viewport' content='width=device-width, user-scalable=no')
+
+  block styles
+    link(rel='stylesheet' href='docs/vendor.css')
+    link(rel='stylesheet' href='dist/mn-card.css')
+
+  style.
+    img {max-width: 100%}
+    .demo .mn-card {margin: 1em}
+    .demo h2 {font-weight: normal}
+
+body
+  h2 mn-card
+  include github-corner
+
+  .layout-fullscreen.layout-centered
+    .layout-container
+      .demo.layout-column.layout-sm-row
+        .mn-card.padding-title
+          h2 Lorem ipsum
+          img(src='http://cdn1.sciencefiction.com/wp-content/uploads/2015/03/Game-of-Thrones-season-5-thumb.jpg')
+        .mn-card.padding-title.flex-sm-60
+          h2 Lorem ipsum
+          p lorem ipsum
+  
+  .docs.layout-container
+    mn-code.sh.
+      bower install --save mn-card
+
+    p Or just download the main files, located in dist/
+
+    h3 usage
+    p Just use the class <strong>.mn-card</strong> in a element. To has padding, use the class <strong>.padding</strong>
+    mn-code.html.
+      <div class="mn-card padding">
+        <h2>Title</h2>
+        <p>lorem ipsum</p>
+      </div>
+
+    p If you want padding only in header, and not in content, use the class <strong>.padding-title</strong>
+    mn-code.html.
+      <div class="mn-card padding-title">
+        <h2>Title</h2>
+        <p>lorem ipsum</p>
+      </div>
+
+  
+  block scripts
+    script(src='docs/vendor.js')
+

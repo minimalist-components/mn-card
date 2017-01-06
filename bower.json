@@ -9,5 +9,8 @@
     "Darlan Mendonça <darlanmendonca@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": ""
+  "homepage": "",
+  "devDependencies": {
+    "mn-gh-page": "^0.0.12"
+  }
 }
