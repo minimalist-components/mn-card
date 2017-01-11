@@ -19,23 +19,24 @@ Or just download the main files, located in [dist/](https://github.com/minimalis
 
 Just use the class `.mn-card` in a element. To has padding, use the class `.padding`
 
-```pug
-.mn-card.padding
-  h2 Title
-
-  p lorem ipsum
+```html
+<div class="mn-card padding">
+  <h2>Title</h2>
+  <p>lorem ipsum</p>
+</div>
 ```
 
 
 If you want padding only in header, and not in content, use the class `.padding-title`
 
-```pug
-.mn-card.padding-title
-  h2 Lorem title
-
-  img(src='/path/to/an/image')
+```html
+<div class="mn-card padding-title">
+  <h2>Title</h2>
+  <p>lorem ipsum</p>
+</div>
 ```
 
+Too works if you use a `<header>` wraping the tags h2, h3, etc.
 
 
 
