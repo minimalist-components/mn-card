@@ -9,7 +9,7 @@
     "Darlan Mendonça <darlanmendonca@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://minimalist-components.github.io/mn-card/",
   "devDependencies": {
     "mn-gh-page": "^0.0.12",
     "mn-table-list": "^0.0.2"
