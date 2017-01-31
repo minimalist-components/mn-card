@@ -3,7 +3,7 @@
 A card component with a minimalist design
 
 <a href="https://minimalist-components.github.io/mn-card/">
-<img src="https://raw.githubusercontent.com/minimalist-components/mn-table-list/master/preview.png">
+<img src="https://raw.githubusercontent.com/minimalist-components/mn-card/master/preview.png">
 </a>
 
 See the [demo](https://minimalist-components.github.io/mn-card/)
