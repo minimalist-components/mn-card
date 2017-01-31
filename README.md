@@ -2,9 +2,11 @@
 
 A card component with a minimalist design
 
-<!-- ![preview demo](https://raw.githubusercontent.com/minimalist-components/mn-card/master/sources/imgs/preview.png) -->
+<a href="https://minimalist-components.github.io/mn-card/">
+<img src="https://raw.githubusercontent.com/minimalist-components/mn-table-list/master/preview.png">
+</a>
 
-<!-- See the [demo](https://codepen.io/darlanmendonca/full/vKqLOx) -->
+See the [demo](https://minimalist-components.github.io/mn-card/)
 
 ### Install
 
