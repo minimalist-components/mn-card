@@ -2,6 +2,10 @@
   "name": "mn-card",
   "version": "0.0.1",
   "description": "a card component to display content",
+  "main": "dist/mn-card.css",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "scripts/start.sh",
     "bundle": "scripts/bundle.sh",
@@ -25,7 +29,6 @@
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.16.0",
-    "bower-files": "^3.13.3",
     "browser-sync": "^2.14.0",
     "compression": "^1.6.2",
     "connect-history-api-fallback": "^1.3.0",
@@ -33,14 +36,18 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^2.3.2",
     "gulp-concat": "^2.6.0",
     "gulp-eslint": "^3.0.1",
     "gulp-jade": "^1.1.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.2.1",
+    "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.3.1",
     "gulp-uglify": "^2.0.0",
+    "mn-gh-page": "git+https://github.com/minimalist-components/gh-page.git",
+    "mn-table-list": "0.0.1",
+    "package-files": "^0.0.5",
     "require-all": "^2.0.0"
   }
 }
