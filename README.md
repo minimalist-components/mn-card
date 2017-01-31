@@ -1,3 +1,7 @@
+[![npm version](https://badge.fury.io/js/mn-card.svg)](https://badge.fury.io/js/mn-card)
+[![Dependency Status](https://gemnasium.com/badges/github.com/minimalist-components/mn-card.svg)](https://gemnasium.com/github.com/minimalist-components/mn-card)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)   
+
 # mn-card
 
 A card component with a minimalist design
