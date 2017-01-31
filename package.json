@@ -4,6 +4,7 @@
   "description": "a card component to display content",
   "scripts": {
     "start": "scripts/start.sh",
+    "bundle": "scripts/bundle.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
