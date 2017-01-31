@@ -9,10 +9,10 @@ A card component with a minimalist design
 ### Install
 
 ```sh
-bower install --save mn-card
+npm install --save mn-card
 ```
 
-Or just download the main files, located in [dist/](https://github.com/minimalist-components/mn-card/tree/master/dist)
+And bundle dependencies and main files in [dist/](https://github.com/minimalist-components/mn-card/tree/master/dist) with your preferred tool.
 
 
 ### Usage
